@@ -20,128 +20,128 @@ void main()
     RBTree Tree1;
     setlocale(LC_ALL, "rus");
 
-    time.hour = 10; Tree1.Insert(time, Tree1.TNill); // Добавляем
-    time.hour = 5; Tree1.Insert(time, Tree1.TNill); // Добавляем
-    time.hour = 20; Tree1.Insert(time, Tree1.TNill); // Добавляем
-    time.hour = 1; Tree1.Insert(time, Tree1.TNill); // Добавляем
-    time.hour = 6; Tree1.Insert(time, Tree1.TNill); // Добавляем
-    time.hour = 15; Tree1.Insert(time, Tree1.TNill); // Добавляем
-    time.hour = 25; Tree1.Insert(time, Tree1.TNill); // Добавляем
+    time.hour = 10; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
+    time.hour = 5; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
+    time.hour = 20; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
+    time.hour = 1; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
+    time.hour = 6; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
+    time.hour = 15; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
+    time.hour = 25; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
 
-    cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     cout << "------------------------------------------" << endl;
 
-    time.hour = 10; Tree1.Delete(time, &Tree1, Tree1.TNill); // Удаляем
+    time.hour = 10; Tree1.Delete(time, &Tree1, Tree1.TNill); // РЈРґР°Р»СЏРµРј
 
-    cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     cout << "------------------------------------------" << endl;
 
-    time.hour = 15; Tree1.Delete(time, &Tree1, Tree1.TNill); // Удаляем
+    time.hour = 15; Tree1.Delete(time, &Tree1, Tree1.TNill); // РЈРґР°Р»СЏРµРј
 
-    cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     cout << "------------------------------------------" << endl;
 
-    time.hour = 20; Tree1.Delete(time, &Tree1, Tree1.TNill); // Удаляем
+    time.hour = 20; Tree1.Delete(time, &Tree1, Tree1.TNill); // РЈРґР°Р»СЏРµРј
 
-    cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     cout << "------------------------------------------" << endl;
 
-    time.hour = 5; Tree1.Delete(time, &Tree1, Tree1.TNill); // Удаляем
+    time.hour = 5; Tree1.Delete(time, &Tree1, Tree1.TNill); // РЈРґР°Р»СЏРµРј
 
-    cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     cout << "------------------------------------------" << endl;
 
-    time.hour = 6; Tree1.Delete(time, &Tree1, Tree1.TNill); // Удаляем
+    time.hour = 6; Tree1.Delete(time, &Tree1, Tree1.TNill); // РЈРґР°Р»СЏРµРј
 
-    cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     cout << "------------------------------------------" << endl;
 
     Tree1.DeleteRBTree(&Tree1, Tree1.root);
 
-    cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     cout << "------------------------------------------" << endl;
 
-    //time.hour = 11; Tree1.Insert(time, Tree1.TNill); // Добавляем
-    //time.hour = 22; Tree1.Insert(time, Tree1.TNill); // Добавляем
+    //time.hour = 11; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
+    //time.hour = 22; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
 
-    //cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    //cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     //cout << "------------------------------------------" << endl;
 
-    //time.hour = 11; Tree1.Delete(time, &Tree1, Tree1.TNill); // Удаляем
+    //time.hour = 11; Tree1.Delete(time, &Tree1, Tree1.TNill); // РЈРґР°Р»СЏРµРј
 
-    //cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    //cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     //cout << "------------------------------------------" << endl;
 
-    //time.hour = 3; Tree1.Insert(time, Tree1.TNill); // Добавляем
-    //time.hour = 0; Tree1.Insert(time, Tree1.TNill); // Добавляем
-    //time.hour = 5; Tree1.Insert(time, Tree1.TNill); // Добавляем
-    //time.hour = 13; Tree1.Insert(time, Tree1.TNill); // Добавляем
-    //time.hour = 17; Tree1.Insert(time, Tree1.TNill); // Добавляем
+    //time.hour = 3; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
+    //time.hour = 0; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
+    //time.hour = 5; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
+    //time.hour = 13; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
+    //time.hour = 17; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
 
-    //time.hour = 10; Tree1.Delete(time, &Tree1, Tree1.TNill); // Удаляем
+    //time.hour = 10; Tree1.Delete(time, &Tree1, Tree1.TNill); // РЈРґР°Р»СЏРµРј
 
-    //cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    //cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     //cout << "------------------------------------------" << endl;
 
-    //time.hour = 11; Tree1.Delete(time, &Tree1, Tree1.TNill); // Удаляем
-    //time.hour = 5; Tree1.Delete(time, &Tree1, Tree1.TNill); // Удаляем
-    //time.hour = 6; Tree1.Delete(time, &Tree1, Tree1.TNill); // Удаляем
-    //time.hour = 10; Tree1.Delete(time, &Tree1, Tree1.TNill); // Удаляем
-    //time.hour = 9; Tree1.Delete(time, &Tree1, Tree1.TNill); // Удаляем
+    //time.hour = 11; Tree1.Delete(time, &Tree1, Tree1.TNill); // РЈРґР°Р»СЏРµРј
+    //time.hour = 5; Tree1.Delete(time, &Tree1, Tree1.TNill); // РЈРґР°Р»СЏРµРј
+    //time.hour = 6; Tree1.Delete(time, &Tree1, Tree1.TNill); // РЈРґР°Р»СЏРµРј
+    //time.hour = 10; Tree1.Delete(time, &Tree1, Tree1.TNill); // РЈРґР°Р»СЏРµРј
+    //time.hour = 9; Tree1.Delete(time, &Tree1, Tree1.TNill); // РЈРґР°Р»СЏРµРј
 
     ////time.hour = 9;
     ////Node ss = *Tree1.FindNode(time, Tree1.TNill);
-    ////Tree1.PrintTree(&ss, 0, Tree1.TNill); cout << endl; // Печатаем
+    ////Tree1.PrintTree(&ss, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     ////Tree1.FixupDelete(&ss, Tree1.TNill);
 
-    //cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    //cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     //cout << "------------------------------------------" << endl;
 
     /*
     for (int i = 0; i < 7; i++)
     {
-        time.hour = i; Tree1.Insert(time, Tree1.TNill); // Добавляем
+        time.hour = i; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
     }
 
-    cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     cout << "------------------------------------------" << endl;
 
-    time.hour = 3; Tree1.Delete(time, &Tree1, Tree1.TNill); // Удаляем
-    time.hour = 4; Tree1.Delete(time, &Tree1, Tree1.TNill); // Удаляем
-    time.hour = 5; Tree1.Delete(time, &Tree1, Tree1.TNill); // Удаляем
-    time.hour = 6; Tree1.Delete(time, &Tree1, Tree1.TNill); // Удаляем
+    time.hour = 3; Tree1.Delete(time, &Tree1, Tree1.TNill); // РЈРґР°Р»СЏРµРј
+    time.hour = 4; Tree1.Delete(time, &Tree1, Tree1.TNill); // РЈРґР°Р»СЏРµРј
+    time.hour = 5; Tree1.Delete(time, &Tree1, Tree1.TNill); // РЈРґР°Р»СЏРµРј
+    time.hour = 6; Tree1.Delete(time, &Tree1, Tree1.TNill); // РЈРґР°Р»СЏРµРј
 
-    cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     cout << "------------------------------------------" << endl;
 
-    time.hour = 2; Tree1.Delete(time, &Tree1, Tree1.TNill); // Удаляем
+    time.hour = 2; Tree1.Delete(time, &Tree1, Tree1.TNill); // РЈРґР°Р»СЏРµРј
 
-    cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     cout << "------------------------------------------" << endl;
     */
 
 
-    //time.hour = 10; Tree1.Insert(time, Tree1.TNill); // Добавляем
-    //time.hour = 9; Tree1.Insert(time, Tree1.TNill); // Добавляем
+    //time.hour = 10; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
+    //time.hour = 9; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
 
-    //cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    //cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     //cout << "------------------------------------------" << endl;
 
-    //time.hour = 9; Tree1.Delete(time, &Tree1, Tree1.TNill); // Удаляем
+    //time.hour = 9; Tree1.Delete(time, &Tree1, Tree1.TNill); // РЈРґР°Р»СЏРµРј
 
-    //cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    //cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     //cout << "------------------------------------------" << endl;
 
-    //Бешеный тестировщик v1.0
+    //Р‘РµС€РµРЅС‹Р№ С‚РµСЃС‚РёСЂРѕРІС‰РёРє v1.0
 
     //for (int i = 0; i < 30; i++)
     //{
     //    int r = random();
-    //    cout << "Добавили вершину " << r << endl;
-    //    time.hour = r; Tree1.Insert(time, Tree1.TNill); // Добавляем
-    //    //time.hour = i; Tree1.Insert(time, Tree1.TNill); // Добавляем
+    //    cout << "Р”РѕР±Р°РІРёР»Рё РІРµСЂС€РёРЅСѓ " << r << endl;
+    //    time.hour = r; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
+    //    //time.hour = i; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
 
-    //    cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    //    cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     //    cout << "------------------------------------------" << endl;
     //}
 
@@ -151,11 +151,11 @@ void main()
     //for (int i = 0; i < 100; i++)
     //{
     //    int r = random();
-    //    cout << "Удалили вершину " << r << endl;
-    //    time.hour = r; Tree1.Delete(time, &Tree1, Tree1.TNill); // Удаляем
+    //    cout << "РЈРґР°Р»РёР»Рё РІРµСЂС€РёРЅСѓ " << r << endl;
+    //    time.hour = r; Tree1.Delete(time, &Tree1, Tree1.TNill); // РЈРґР°Р»СЏРµРј
 
 
-    //    cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    //    cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     //    cout << "------------------------------------------" << endl;
     //}
 }
@@ -163,109 +163,109 @@ void main()
 
     //for (int i = 15; i > 0; i--)
     //{
-    //    time.hour = i; Tree1.Insert(time, Tree1.TNill); // Добавляем
+    //    time.hour = i; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
     //}
 
-    ////time.hour = 10; Tree1.Insert(time, Tree1.TNill); // Добавляем
+    ////time.hour = 10; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
 
-    ////cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    ////cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     ////cout << "------------------------------------------" << endl;
 
-    ////time.hour = 11; Tree1.Insert(time, Tree1.TNill); // Добавляем
-    ////time.hour = 12; Tree1.Insert(time, Tree1.TNill); // Добавляем
+    ////time.hour = 11; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
+    ////time.hour = 12; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
 
-    ////cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    ////cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     ////cout << "------------------------------------------" << endl;
 
-    ////time.hour = 11; Tree1.Delete(time, &Tree1, Tree1.TNill); // Удаляем
+    ////time.hour = 11; Tree1.Delete(time, &Tree1, Tree1.TNill); // РЈРґР°Р»СЏРµРј
 
-    ////cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    ////cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     ////cout << "------------------------------------------" << endl;
 
     ////Tree1.DeleteRBTree(&Tree1, Tree1.root);
 
-    ////cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    ////cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     ////cout << "------------------------------------------" << endl;
 
-    //cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    //cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     //cout << "------------------------------------------" << endl;
 
-    //time.hour = 15; Tree1.Delete(time, &Tree1, Tree1.TNill); // Удаляем
+    //time.hour = 15; Tree1.Delete(time, &Tree1, Tree1.TNill); // РЈРґР°Р»СЏРµРј
 
-    //cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    //cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     //cout << "------------------------------------------" << endl;
 
-    //time.hour = 8; Tree1.Delete(time, &Tree1, Tree1.TNill); // Удаляем
+    //time.hour = 8; Tree1.Delete(time, &Tree1, Tree1.TNill); // РЈРґР°Р»СЏРµРј
 
-    //cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    //cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     //cout << "------------------------------------------" << endl;
 
-    //time.hour = 9; Tree1.Delete(time, &Tree1, Tree1.TNill); // Удаляем
+    //time.hour = 9; Tree1.Delete(time, &Tree1, Tree1.TNill); // РЈРґР°Р»СЏРµРј
 
-    //cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    //cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     //cout << "------------------------------------------" << endl;
 
-    //time.hour = 10; Tree1.Delete(time, &Tree1, Tree1.TNill); // Удаляем
+    //time.hour = 10; Tree1.Delete(time, &Tree1, Tree1.TNill); // РЈРґР°Р»СЏРµРј
 
-    //cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    //cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     //cout << "------------------------------------------" << endl;
 
 
 
 
 
-    //time.hour = 10; Tree1.Insert(time, Tree1.TNill); // Добавляем
+    //time.hour = 10; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
 
-    //cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    //cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     //cout << "------------------------------------------" << endl;
 
-    //time.hour = 10; Tree1.Delete(time, &Tree1, Tree1.TNill); // Удаляем
+    //time.hour = 10; Tree1.Delete(time, &Tree1, Tree1.TNill); // РЈРґР°Р»СЏРµРј
 
-    //cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    //cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     //cout << "------------------------------------------" << endl;
 
     //Tree1.DeleteRBTree(&Tree1, Tree1.root);
 
-    //cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // Печатаем
+    //cout << endl; Tree1.PrintTree(Tree1.root, 0, Tree1.TNill); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     //cout << "------------------------------------------" << endl;
 
 
 
 
 
-    //cout << "Добавили все вершины" << endl;
+    //cout << "Р”РѕР±Р°РІРёР»Рё РІСЃРµ РІРµСЂС€РёРЅС‹" << endl;
 
     //for (int i = 20; i > 0; i--)
     //{
-    //    time.hour = i; Tree1.Delete(time, &Tree1, Tree1.TNill); // Удаляем
+    //    time.hour = i; Tree1.Delete(time, &Tree1, Tree1.TNill); // РЈРґР°Р»СЏРµРј
     //}
 
-    //cout << endl; Tree1.PrintTree(Tree1.root, 0); cout << endl; // Печатаем
+    //cout << endl; Tree1.PrintTree(Tree1.root, 0); cout << endl; // РџРµС‡Р°С‚Р°РµРј
     //cout << "------------------------------------------" << endl;
 
-/* // Ввод 1
-time.hour = 10; Tree1.Insert(time, Tree1.TNill); // Добавляем
-time.hour = 5; Tree1.Insert(time, Tree1.TNill); // Добавляем
-time.hour = 20; Tree1.Insert(time, Tree1.TNill); // Добавляем
-time.hour = 1; Tree1.Insert(time, Tree1.TNill); // Добавляем
-time.hour = 6; Tree1.Insert(time, Tree1.TNill); // Добавляем
-time.hour = 15; Tree1.Insert(time, Tree1.TNill); // Добавляем
-time.hour = 25; Tree1.Insert(time, Tree1.TNill); // Добавляем
+/* // Р’РІРѕРґ 1
+time.hour = 10; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
+time.hour = 5; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
+time.hour = 20; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
+time.hour = 1; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
+time.hour = 6; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
+time.hour = 15; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
+time.hour = 25; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
 */
 
-/* // Ввод 2
+/* // Р’РІРѕРґ 2
 for (int i = 15; i > 5; i--)
 {
-    time.hour = i; Tree1.Insert(time, Tree1.TNill); // Добавляем
+    time.hour = i; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
 }
 */
 
 
-//time.hour = 8; Tree1.Delete(time, &Tree1, Tree1.TNill); // Удаляем
+//time.hour = 8; Tree1.Delete(time, &Tree1, Tree1.TNill); // РЈРґР°Р»СЏРµРј
 
-//time.hour = 16; Tree1.Insert(time, Tree1.TNill); // Добавляем
+//time.hour = 16; Tree1.Insert(time, Tree1.TNill); // Р”РѕР±Р°РІР»СЏРµРј
 
-//cout << endl; Tree1.PrintTree(Tree1.root, 0); cout << endl; // Печатаем
+//cout << endl; Tree1.PrintTree(Tree1.root, 0); cout << endl; // РџРµС‡Р°С‚Р°РµРј
 //cout << "------------------------------------------" << endl;
 
 
